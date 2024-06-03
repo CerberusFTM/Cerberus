@@ -45,6 +45,18 @@
             object-fit: cover; /* Ensure the logo fills the circular area */
         }
 
+        .explainer {
+            margin: 20px auto;
+            max-width: 600px;
+            font-size: 1.2em;
+            line-height: 1.5;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 10px;
+            background-color: #222;
+            text-align: center; /* Center the text */
+        }
+
         section {
             margin: 40px auto;
             max-width: 800px;
@@ -80,8 +92,13 @@
             height: 30px;
         }
 
+        .bottom-menu a {
+            color: white; /* Set color of text links to white */
+            text-decoration: none; /* Remove underline from text links */
+        }
+
         .footer-text {
-            color: white; /* Change text color to white */
+            color: #888;
             font-size: 0.9em;
         }
     </style>
@@ -93,6 +110,9 @@
     <main>
         <div class="logo-container">
             <img src="logo1.jpg" alt="Your Logo" class="logo">
+        </div>
+        <div class="explainer">
+            <p>Cerberus is a token, only on Fantom/Sonic.</p>
         </div>
         <section>
             <h2>Simple Tokenomics</h2>
@@ -109,7 +129,8 @@
     </main>
     <footer>
         <div class="bottom-menu">
-            <!-- Removed logos -->
+            <a href="https://x.com/CerberusFTM">X</a> <!-- Text link for X -->
+            <a href="https://t.me/cerberusftm">Telegram</a> <!-- Text link for Telegram -->
         </div>
         <div class="footer-text">
             &copy; 2024 Cerberus. Only on Fantom Opera Mainnet.
